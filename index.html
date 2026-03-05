@@ -32,21 +32,32 @@
     </style>
 </head>
 <body class="md:max-w-7xl mx-auto ">
-    <header> 
-         <nav class="flex flex-col md:flex-row  items-center justify-between my-7">
-            <div>
-                <h1 class="text-4xl font-extrabold fonts-poppins">Bike Dekho</h1>
+    <header>  
+             <!-- <svg   
+                class="swap-off fill-current lg:hidden "
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 512 512">
+                <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
+            </svg> -->
+            
+         <nav class="flex flex-col md:flex-row  lg:items-center justify-between my-7"> 
+            
+            <div class=""> 
+                <h1 class="text-3xl font-bold lg:mx-0 mx-9 lg:text-4xl lg:font-extrabold fonts-poppins">Bike Dekho</h1>
             </div>
             <div class="flex items-center md:ml-160">
-                <ul class=" md:flex-col md:flex-row text-base fonts-poppins flex items-center gap-10 py-10">
+                <ul class=" md:flex-col md:flex-row lg:text-base lg:fonts-poppins lg:flex lg:items-center lg:gap-10 lg:py-10 hidden">
                    <li><a>Home</a></li>
                    <li><a >Shop</a></li>
                    <li><a>News</a></li>
                    <li ><a >Contact</a></li>
                 </ul>
             </div>
-            <div >
-                <button class="btn bg-[#E76F51] fonts-poppins text-white md:ml-10">Login</button> 
+            <div class="flex lg:items-center justify-between p-2 lg:p-0 " >
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block h-5 w-5 stroke-current lg:hidden -mt-9"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path> </svg>
+                <button class="btn bg-[#E76F51] fonts-poppins text-white lg:ml-10 lg:-mt-0 -mt-10.5">Login</button> 
             </div>
          </nav>
          <!--slider or Carousel pic -->
@@ -218,8 +229,8 @@
          <section>
             <h2 class="text-6xl text-center font-semibold fonts-poppins mt-15">Happy <span class="text-[#E76F51]">Clients says</span></h2>
             <div class="flex flex-col lg:flex-row gap-12 mt-11">
-                <!-- 1st items -->
-                <div class="shadow-xl/30 p-5">
+                <!-- 1st items shadow-xl/30 -->
+                <div class="border border-gray-500 rounded-2xl p-5">
                     <img src="images/others/user-1.png" alt="">
                     <p>Slate helps you see how 
                     many more days you need 
@@ -236,7 +247,7 @@
                     <h2 class="text-center font-semibold fonts-poppins mt-1">Banker</h2>
                 </div>
                 <!-- 2nd itmes -->
-                <div class="shadow-xl/30 p-5">
+                <div class="border border-gray-500 rounded-2xl p-5">
                     <img src="images/others/user-2.png" alt="">
                     <p>Slate helps you see how 
                     many more days you need 
@@ -253,7 +264,7 @@
                     <h2 class="text-center font-semibold fonts-poppins mt-1">Banker</h2>
                 </div>
                 <!-- 3rd items -->
-                <div class="shadow-xl/30 p-5">
+                <div class="border border-gray-500 rounded-2xl p-5">
                     <img src="images/others/user-3.png" alt="">
                     <p>Slate helps you see how 
                     many more days you need 
